@@ -1,13 +1,16 @@
 package com.appmovil.proyecto;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -30,7 +33,12 @@ public class MainActivity extends AppCompatActivity {
 
         asignarReferencias();
     }
+    @Override
+    public void onPause(){
+        super.onPause();
 
+        overridePendingTransition(PrincipalActivity.zoomIn,PrincipalActivity.zoomOut);
+    }
     private void asignarReferencias() {
         btnIngresar = findViewById(R.id.btnIngresar);
         txtUsuario = findViewById(R.id.txtUsuario);
@@ -45,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
                 String password = txtPassword.getText().toString().trim();
 
                 if(usuario.isEmpty() && password.isEmpty()){
-                    Toast.makeText(MainActivity.this, "Ingrese los Datos", Toast.LENGTH_SHORT).show();
+                    ventana("Complete todos los campos !!","").show();
                 }else{
                     login(usuario,password);
                 }
@@ -61,16 +69,56 @@ public class MainActivity extends AppCompatActivity {
                 if(task.isSuccessful()){
                     finish();
                     startActivity(new Intent(MainActivity.this,PrincipalActivity.class));
+                    ventana("BIENVENIDO 😀😀","").show();
                     Toast.makeText(MainActivity.this, "Beinvenido", Toast.LENGTH_SHORT).show();
                 }else{
+                    ventana("Usuario/Contraseña Incorrecta","").show();
                     Toast.makeText(MainActivity.this, "Error", Toast.LENGTH_SHORT).show();
                 }
             }
         }).addOnFailureListener(new OnFailureListener() {
             @Override
             public void onFailure(@NonNull Exception e) {
+                ventana("Error","").show();
                 Toast.makeText(MainActivity.this, "Error", Toast.LENGTH_SHORT).show();
             }
         });
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        FirebaseUser user = firebaseAuth.getCurrentUser();
+        if(user != null){
+            startActivity(new Intent(MainActivity.this,PrincipalActivity.class));
+            finish();
+        }
+    }
+
+    private AlertDialog ventana(String msaje, String msje2){
+        AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+        LayoutInflater inflater = getLayoutInflater();
+        View view = inflater.inflate(R.layout.dialog, null);
+        builder.setView(view);
+        AlertDialog dialog = builder.create();
+
+
+        TextView text = view.findViewById(R.id.txtResultados);
+
+        text.setText(msaje+msje2);
+
+        Button btnAceptar = view.findViewById(R.id.btnAceptars);
+
+        btnAceptar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(MainActivity.this,MainActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
+        return dialog;
     }
 }

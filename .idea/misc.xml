@@ -3,9 +3,52 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/dante/AndroidStudioProjects/proyecto/app/src/main/res/drawable-v24/btncircle2.xml" value="0.326" />
+        <entry key="..\:/Users/dante/AndroidStudioProjects/proyecto/app/src/main/res/drawable-v24/fondo.xml" value="0.3415" />
+        <entry key="..\:/Users/dante/AndroidStudioProjects/proyecto/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2715" />
+        <entry key="..\:/Users/dante/AndroidStudioProjects/proyecto/app/src/main/res/drawable/btncircle.xml" value="0.325" />
+        <entry key="..\:/Users/dante/AndroidStudioProjects/proyecto/app/src/main/res/drawable/btncircle2.xml" value="0.325" />
+        <entry key="..\:/Users/dante/AndroidStudioProjects/proyecto/app/src/main/res/drawable/btncircle3.xml" value="0.326" />
+        <entry key="..\:/Users/dante/AndroidStudioProjects/proyecto/app/src/main/res/drawable/caja_personalizada.xml" value="0.318" />
+        <entry key="..\:/Users/dante/AndroidStudioProjects/proyecto/app/src/main/res/drawable/categoria_personalizado.xml" value="0.307" />
+        <entry key="..\:/Users/dante/AndroidStudioProjects/proyecto/app/src/main/res/drawable/descripcion_personalizado.xml" value="0.307" />
+        <entry key="..\:/Users/dante/AndroidStudioProjects/proyecto/app/src/main/res/drawable/grado_personalizado.xml" value="0.307" />
+        <entry key="..\:/Users/dante/AndroidStudioProjects/proyecto/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2715" />
+        <entry key="..\:/Users/dante/AndroidStudioProjects/proyecto/app/src/main/res/drawable/icon_agregar24.xml" value="0.2635" />
         <entry key="..\:/Users/dante/AndroidStudioProjects/proyecto/app/src/main/res/drawable/icon_book.xml" value="0.3045" />
+        <entry key="..\:/Users/dante/AndroidStudioProjects/proyecto/app/src/main/res/drawable/icon_categoria24_active.xml" value="0.308" />
+        <entry key="..\:/Users/dante/AndroidStudioProjects/proyecto/app/src/main/res/drawable/icon_descripcion24_active.xml" value="0.308" />
+        <entry key="..\:/Users/dante/AndroidStudioProjects/proyecto/app/src/main/res/drawable/icon_editar24.xml" value="0.2635" />
+        <entry key="..\:/Users/dante/AndroidStudioProjects/proyecto/app/src/main/res/drawable/icon_eliminar24.xml" value="0.2635" />
+        <entry key="..\:/Users/dante/AndroidStudioProjects/proyecto/app/src/main/res/drawable/icon_grado24.xml" value="0.286" />
+        <entry key="..\:/Users/dante/AndroidStudioProjects/proyecto/app/src/main/res/drawable/icon_grado24_active.xml" value="0.308" />
+        <entry key="..\:/Users/dante/AndroidStudioProjects/proyecto/app/src/main/res/drawable/icon_mensaje.xml" value="0.2635" />
+        <entry key="..\:/Users/dante/AndroidStudioProjects/proyecto/app/src/main/res/drawable/icon_nombre24_active.xml" value="0.308" />
+        <entry key="..\:/Users/dante/AndroidStudioProjects/proyecto/app/src/main/res/drawable/icon_password24_active.xml" value="0.24" />
+        <entry key="..\:/Users/dante/AndroidStudioProjects/proyecto/app/src/main/res/drawable/icon_user24_active.xml" value="0.24" />
+        <entry key="..\:/Users/dante/AndroidStudioProjects/proyecto/app/src/main/res/drawable/nombre_personalizado.xml" value="0.307" />
+        <entry key="..\:/Users/dante/AndroidStudioProjects/proyecto/app/src/main/res/drawable/password_personalizado.xml" value="0.239" />
+        <entry key="..\:/Users/dante/AndroidStudioProjects/proyecto/app/src/main/res/drawable/user_personalizado.xml" value="0.239" />
+        <entry key="..\:/Users/dante/AndroidStudioProjects/proyecto/app/src/main/res/layout/activity_formulario_curso.xml" value="0.29884566053869177" />
+        <entry key="..\:/Users/dante/AndroidStudioProjects/proyecto/app/src/main/res/layout/activity_inicio.xml" value="0.24454895254382214" />
+        <entry key="..\:/Users/dante/AndroidStudioProjects/proyecto/app/src/main/res/layout/activity_listado.xml" value="0.13291139240506328" />
         <entry key="..\:/Users/dante/AndroidStudioProjects/proyecto/app/src/main/res/layout/activity_main.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/dante/AndroidStudioProjects/proyecto/app/src/main/res/layout/activity_mapa.xml" value="0.10465116279069768" />
         <entry key="..\:/Users/dante/AndroidStudioProjects/proyecto/app/src/main/res/layout/activity_principal.xml" value="0.30104166666666665" />
+        <entry key="..\:/Users/dante/AndroidStudioProjects/proyecto/app/src/main/res/layout/activity_pruebalistado.xml" value="0.2975630611372381" />
+        <entry key="..\:/Users/dante/AndroidStudioProjects/proyecto/app/src/main/res/layout/dialog.xml" value="0.21205643437366395" />
+        <entry key="..\:/Users/dante/AndroidStudioProjects/proyecto/app/src/main/res/layout/dialog_confirm.xml" value="0.21205643437366395" />
+        <entry key="..\:/Users/dante/AndroidStudioProjects/proyecto/app/src/main/res/layout/fila.xml" value="0.4" />
+        <entry key="..\:/Users/dante/AndroidStudioProjects/proyecto/app/src/main/res/layout/fragment_cursosfragmento.xml" value="0.264" />
+        <entry key="..\:/Users/dante/AndroidStudioProjects/proyecto/app/src/main/res/layout/fragment_notasfragmento.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/dante/AndroidStudioProjects/proyecto/app/src/main/res/layout/fragment_noticia.xml" value="0.3212962962962963" />
+        <entry key="..\:/Users/dante/AndroidStudioProjects/proyecto/app/src/main/res/layout/fragment_noticia__fragmento.xml" value="0.32864583333333336" />
+        <entry key="..\:/Users/dante/AndroidStudioProjects/proyecto/app/src/main/res/layout/fragment_noticiafragmento.xml" value="0.125" />
+        <entry key="..\:/Users/dante/AndroidStudioProjects/proyecto/app/src/main/res/layout/nav_header.xml" value="0.4" />
+        <entry key="..\:/Users/dante/AndroidStudioProjects/proyecto/app/src/main/res/layout/toolbar.xml" value="0.18385416666666668" />
+        <entry key="..\:/Users/dante/AndroidStudioProjects/proyecto/app/src/main/res/menu/main_menu.xml" value="0.18385416666666668" />
+        <entry key="..\:/Users/dante/AndroidStudioProjects/proyecto/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2715" />
+        <entry key="..\:/Users/dante/AndroidStudioProjects/proyecto/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2715" />
       </map>
     </option>
   </component>
